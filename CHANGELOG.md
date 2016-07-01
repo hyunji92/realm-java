@@ -3,6 +3,7 @@
 ### Bug fixes
 
 * Fixed a wrong JNI method declaration which might cause "method not found" crash on some devices.
+* Fixed a crash when an empty `Collection` is passed to `insert()`/`insertOrUpdate()` (#3103).
 
 ## 1.1.0
 
